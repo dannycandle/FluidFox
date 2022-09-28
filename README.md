@@ -8,3 +8,5 @@ Light Mode:
 
 Dark Mode:
 <img width="1103" alt="image" src="https://user-images.githubusercontent.com/26730273/192899715-f7b9528d-7021-4856-9443-f4420e3c6460.png">
+
+To Install, type about:support in your URL bar and press enter. Click "Show in Finder" in the Profile Folder field. Paste the entire "Chrome" folder from this repository and restart Firefox.
