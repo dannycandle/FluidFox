@@ -1,0 +1,240 @@
+/* --------------------------------------------------------------------------------------------------------- 
+HELLO AND WELCOME TO MY FIREFOX userChrome. THIS IS MY userChrome! :D THANK YOU.
+
+The goal of this userChrome is to create something general enough to be used and enjoyed by anyone, yet still
+beautiful and fully integrated into Mac OS. Essentially, I wanted to add some much-needed polish to the stock
+Firefox design. Hopefully, this will make you feel more comfortable with Firefox. Also, please not that I am 
+not a developer, I just copied and pasted random bits of CSS I found elsewhere and modified until I felt 
+comfortable! I also tried my hardest to keep the code light and understandable, modifying as little as possible
+to get the results I wanted. Therefore it only supports later versions of Firefox. If you have any         
+questions, leave me alone! ;) Thanks! This userChrome for Firefox 100 and higher only.  
+
+Sincerely,
+Faggot Dani
+--------------------------------------------------------------------------------------------------------- */
+
+
+/* Theme information
+PLATFORM: Mac OS ONLY
+THEMES: Default Firefox Dark and Light Themes
+VERSIONS: Firefox Versions 100 and higher
+*/
+
+
+/* ------------------------- */
+/* Spacing, Padding, Shadows */
+/* ------------------------- */
+/* This stuff is just for sizing of elements and whatnot. If you're just wanting to tweak colors, stay away */
+
+/* Tab Padding */
+#tabbrowser-tabs .tabbrowser-tab{
+  --tab-border-radius: 7px;
+  --tab-block-margin: 6px 4px;
+  --tab-min-width: 40px;
+  --tab-label-mask-size: 0.75em;
+  --inline-tab-padding: 10px;}
+
+:root {
+--tab-min-height: 28px !important;
+--tab-max-height: 28px !important;
+}
+
+/* Tab Shadows */
+.tabbrowser-tab:is([visuallyselected="true"], 
+[multiselected])>.tab-stack>.tab-background { 
+box-shadow: 0px 0px 0px 0px rgba(0,0,0,0) !important;}
+
+/*  -------------  */
+/* | NavBar Size | */
+/*  -------------  */
+
+#urlbar-input {
+  height: 15px !important;
+}
+
+#urlbar{
+  min-height: 27px !important;
+}
+
+.toolbarbutton-badge {
+  /* min-width: 10px !important; */
+}
+
+#urlbar-background {
+  border-radius: 7px !important;
+}
+
+
+/*  ---------  */
+/* | Borders | */
+/*  ---------  */
+
+.tabbrowser-tab::after {
+	border: 0 !important;
+}
+.titlebar-spacer[type="pre-tabs"] {
+	border: 0 !important;
+}
+#navigator-toolbox {
+	border: 1 !important;
+}
+
+.titlebar-spacer[type="pre-tabs"] {
+	border: 0 !important;
+}
+
+.tabbrowser-tab::after {
+	border: 0 !important;
+}
+
+#urlbar-background {
+	border: 0 !important;
+}
+
+#urlbar[open] > .urlbarView > .urlbarView-body-outer > .urlbarView-body-inner {
+    border-top: 0 !important;
+}
+
+
+
+/* ------------------- */
+/* Theme Prerequisites */
+/* ------------------- */
+
+/* Make Navigator Toolbar Transparent */
+:root:not(:-moz-window-inactive) #navigator-toolbox {
+  background-color: transparent !important;
+}
+
+/* Make Tab Bar Transparent */
+:root #TabsToolbar,
+:root #titlebar,
+:root #tabbrowser-tabs {
+   -moz-appearance: -moz-mac-unified-toolbar !important;
+   background-color: transparent !important;
+}
+
+#urlbar-background { outline: none !important }
+
+/* ----- */
+/* Theme */
+/* ----- */
+
+/* Tab Bar (Drag Bar) Background */
+ :root:not(:-moz-window-inactive [lwt-default-theme-in-dark-mode]) #TabsToolbar {
+  -moz-appearance: -moz-mac-unified-toolbar !important;
+}
+
+:root:not(:-moz-window-inactive)[lwt-default-theme-in-dark-mode] #TabsToolbar {
+  -moz-appearance: -moz-mac-unified-toolbar !important;
+  border:0px !important;
+}
+
+:root:-moz-window-inactive[lwt-default-theme-in-dark-mode] {
+  --lwt-accent-color-inactive: rgba(40,40,40,0) !important;
+ }
+
+
+/* Tab Lines */
+#tabbrowser-tabs .tabbrowser-tab{
+  --tab-line-color: rgb(0, 0, 0, 0);
+}
+
+/* Active Tab */
+
+:root:not([lwt-default-theme-in-dark-mode]) .tab-background[selected],
+.tab-background[multiselected="true"] {	
+	background: rgba(0,0,0,.04) !important;
+}
+
+:root[lwt-default-theme-in-dark-mode] .tab-background[selected],
+.tab-background[multiselected="true"] {	
+	background: rgba(255,255,255,.06) !important;
+}
+
+/* Inactive Tab Light Theme - Old Firefox */
+.tab-background:-moz-lwtheme-brighttext{
+  background-color: rgba( 66, 65, 76, 0.4) !important;
+}
+/* Hover Tab - Old Firefox */
+.tab-background[multiselected="true"] > .tab-stack > .tab-background{
+  background-color: rgba( 255, 255, 255, .05) !important;
+}
+
+/* Navigation Bar Background */
+:root:not([lwt-default-theme-in-dark-mode]) #nav-bar {
+  background-color: rgba(255,255,255,.7) !important;
+  -moz-appearance: -moz-mac-unified-toolbar !important;
+
+}
+:root[lwt-default-theme-in-dark-mode] #nav-bar {
+  background-color: rgba(255,255,255,.05) !important; 
+  -moz-appearance: -moz-mac-unified-toolbar !important;
+}
+
+
+/* Inactive Address/Search Field Background */
+
+:root:not([lwt-default-theme-in-dark-mode]) #urlbar-background {
+  background-color: rgba(0,0,0,.04) !important;
+}
+
+:root[lwt-default-theme-in-dark-mode] #urlbar-background {
+	background: rgba(255,255,255,.05) !important;
+}
+
+/* Active Address/Search Field Dropdown */
+:root:not([lwt-default-theme-in-dark-mode])  #urlbar[breakout][breakout-extend] > #urlbar-background {
+	border-radius: 10px !important;
+	backdrop-filter: blur(32px) !important;
+	background: rgba(250,250,250,1) !important;
+	box-shadow: 0px 0px 10px -2px rgba(0,0,0,.2) !important;
+}
+
+:root[lwt-default-theme-in-dark-mode]  #urlbar[breakout][breakout-extend] > #urlbar-background {
+	border-radius: 10px !important;
+	background: rgba(70,70,70,1) !important;
+	box-shadow: 0px 0px 20px -2px rgba(0,0,0,.2) !important;
+  -moz-appearance: communications-toolbox;
+}
+
+
+
+
+
+/* Bookmarks Bar */
+:root:not([lwt-default-theme-in-dark-mode]) #PersonalToolbar {
+	background-color: rgba(240,240,240,1) !important;
+	padding: 4px;
+}
+
+
+:root[lwt-default-theme-in-dark-mode] #PersonalToolbar {
+	background-color: rgba(40,40,40,1) !important;
+	padding: 4px;
+}
+
+
+/* Navigation Bar Separator */
+
+:root[lwt-default-theme-in-dark-mode] #navigator-toolbox {
+  border-color:rgba(37,37,37, 1) !important;
+}
+
+:root:not([lwt-default-theme-in-dark-mode]) #navigator-toolbox {
+  border-color:rgba(240,240,240, 1) !important;
+}
+
+/* --------------------- */
+/* Reference Information */
+/* --------------------- */
+
+/* FF 99 > lwthemetextcolor="bright" */
+/* FF 100< lwt-default-theme-in-dark-mode="true" */
+
+
+
+
+
+
+
