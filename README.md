@@ -1,4 +1,4 @@
-Fluid Fox Promo8.png<img width="1940" alt="image" src="https://user-images.githubusercontent.com/26730273/193124608-842562ff-96d5-41ac-9efd-fd4a262c39ae.png">
+Fluid Fox Promo9.png<img width="1965" alt="image" src="https://user-images.githubusercontent.com/26730273/193124977-42ee0242-6b08-49a0-945c-c771a0e52e89.png">
 
 ## Fluidfox: A Clean Theme
 Fluidfox is meant to replace the standard firefox theme with one that has more polish. Uneven spacing has been fixed, harsh 90's-era shadows have been modernized, and native mac OS styling has been added. This theme supports both light and dark mode.
