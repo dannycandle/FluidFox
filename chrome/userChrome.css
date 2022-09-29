@@ -145,21 +145,21 @@ Firefox Versions: 102+
  /* Navigation Bar Background */
  
  :root:not([lwt-default-theme-in-dark-mode]) #nav-bar {
-   background-color: rgba(255,255,255,.65) !important;
+   background-color: rgba(255,255,255,.6) !important;
  }
 
  :root[lwt-default-theme-in-dark-mode] #nav-bar {
-   background-color: rgba(50,50,55,.75) !important; 
+   background-color: rgba(65,65,65,.6) !important; 
  }
  
  /* Inactive Address/Search Field Background */
  
  :root:not([lwt-default-theme-in-dark-mode]) #urlbar-background {
-   background-color: rgba(0,0,0,.025) !important;
+   background-color: rgba(0,0,0,.03) !important;
  }
  
  :root[lwt-default-theme-in-dark-mode] #urlbar-background {
-    background: rgba(255,255,255,.025) !important;
+    background: rgba(255,255,255,.03) !important;
  }
 
  
