@@ -1,4 +1,4 @@
-Fluid Fox Promo6.png![image](https://user-images.githubusercontent.com/26730273/192958569-13d2f0d5-a166-4cfa-8295-33642b46b7a1.png)
+![image](https://user-images.githubusercontent.com/26730273/192958569-13d2f0d5-a166-4cfa-8295-33642b46b7a1.png)
 
 # Introducing FluidFox, a polished, native Firefox theme for Mac OS.
 
