@@ -1,5 +1,4 @@
-<img width="1965" alt="image" src="https://user-images.githubusercontent.com/26730273/193124977-42ee0242-6b08-49a0-945c-c771a0e52e89.png">
-Fluid Fox Promo10.png<img width="1965" alt="image" src="https://user-images.githubusercontent.com/26730273/193137628-ae06f32b-ed20-4127-91d0-dcc59bd796c0.png">
+<img width="1965" alt="image" src="https://user-images.githubusercontent.com/26730273/193137628-ae06f32b-ed20-4127-91d0-dcc59bd796c0.png">
 
 
 ## Fluidfox: A Clean Theme
