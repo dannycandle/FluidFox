@@ -4,9 +4,9 @@
 Fluidfox is meant to replace the standard firefox theme with one that has more polish. Uneven spacing has been fixed, harsh 90's-era shadows have been modernized, and native mac OS styling has been added. This theme supports both light and dark mode.
 
 ## Information
-Author: Daniel Candelaria
-Platforms Supported: mac OS
-Compatibility: Firefox 102+
+- Author: Daniel Candelaria
+- Platforms Supported: mac OS
+- Compatibility: Firefox 102+
 
 ## Installation
 1. Go to about:config and update toolkit.legacyUserProfileCustomizations.stylesheets to true.
