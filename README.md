@@ -16,14 +16,12 @@ Dim the lights with a built in dark mode. Just set Firefox's theme to Dark or Au
 ### Modern design for the modern browser
 Easily opt out of Mozilla's harsh shadows from the 90's and uneven spacing.
 
-## Give your desktop a modern tough with custom-designed wallpapers
+## Give your desktop a modern tough with custom-designed 4k wallpapers
 
-### Light wallpaper:
-<img width="1920" alt="image" src="https://user-images.githubusercontent.com/26730273/193395540-bd97be7c-e86f-478b-8711-0506a3e66897.png">
-
-### Dark wallpaper:
-Fluidfox Dark Wallpaper.png<img width="1920" alt="image" src="https://user-images.githubusercontent.com/26730273/193395560-1f16b91f-e050-4c36-a3db-9a76121106f7.png">
-
+wallpaper-light.png<img width="1920" alt="image" src="https://user-images.githubusercontent.com/26730273/193398988-2b5cfc91-5e69-46fe-bda2-11ef2b2e4107.png">
+wallpaper-light-2.png<img width="1920" alt="image" src="https://user-images.githubusercontent.com/26730273/193398992-591dea11-6ff5-464d-94b2-a641a4ad7efa.png">
+wallpaper-medium.png<img width="1920" alt="image" src="https://user-images.githubusercontent.com/26730273/193398996-7396a797-95d4-4943-9947-f2286637b8dd.png">
+wallpaper-dark.png<img width="1920" alt="image" src="https://user-images.githubusercontent.com/26730273/193399000-da6ed822-71e3-46ad-bc90-2d334dd9c43a.png">
 
 ## Information
 - Designer: Daniel Candelaria
