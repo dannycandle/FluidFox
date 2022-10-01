@@ -37,7 +37,15 @@ Firefox Versions: 102+
  --tab-max-height: 28px !important;
  }
 
- 
+ /* Suppress Connecting/Waiting/Reading/Transerring */
+#statuspanel[type="status"] {
+   display: none !important;
+ }
+ /* Suppress Link Destination Overlay */
+ #statuspanel[type="overLink"] {
+   display: none !important;
+ }
+
  /* Tab Shadows */
 
  .tabbrowser-tab:is([visuallyselected="true"], 
