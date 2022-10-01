@@ -47,7 +47,7 @@ Firefox Versions: 102+
 
  /* Bookmarks Bar Padding */
 
- :root[lwt-default-theme-in-dark-mode] #PersonalToolbar {
+ #PersonalToolbar {
    padding: 4px;
 }
 
