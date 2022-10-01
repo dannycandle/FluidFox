@@ -1,4 +1,4 @@
-<img width="1980" alt="image" src="https://user-images.githubusercontent.com/26730273/193397362-ad4a727a-87ba-4c21-a0cf-a8f2bcab655b.png">
+<img width="1920" alt="image" src="https://user-images.githubusercontent.com/26730273/193400015-deee10f2-8010-4b86-ac4f-e55afe9509d7.png">
 
 
 ## Fluidfox: A Clean Firefox Theme for mac OS
