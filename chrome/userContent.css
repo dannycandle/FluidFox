@@ -1,7 +1,21 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --backgroundpic: url(tab-backdrop-light.png);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --backgroundpic: url(tab-backdrop-dark.png);
+  }
+}
+
+
+
 @-moz-document url-prefix(about:home), url-prefix(about:newtab) { 
   
 body {
-  background: url(wallpaper-dark.png) !important;
+  background: var(--backgroundpic) !important;
   background-size: cover !important;
   background-attachment: fixed !important;
   background-position: center center !important;
