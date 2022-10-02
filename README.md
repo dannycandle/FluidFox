@@ -9,11 +9,9 @@ Using a privacy-first web browser that lets you block ads shouldn't burden you w
 
 ### Stunning transparency
 Use the built-in stunning mac OS transparency with Firefox without editing code yourself.
-CleanShot 2022.10.02 at 11.33.59.gif![image](https://user-images.githubusercontent.com/26730273/193467940-95d84621-15ae-41a1-9a2f-19248fedfa3e.png)
 
 ### Dark mode included
 Dim the lights with a built in dark mode. Just set Firefox's theme to Dark or Auto.
-CleanShot 2022.10.02 at 11.40.50.gif![image](https://user-images.githubusercontent.com/26730273/193468235-53f13ffc-27d7-4dcc-ad0f-652a9d48bffe.png)
 
 ### Set of 4k wallpapers included
 
