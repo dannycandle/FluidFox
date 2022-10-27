@@ -88,7 +88,7 @@ Firefox Versions: 102+
  }
  
  .toolbarbutton-badge {
-   /* min-width: 10px !important; */
+   min-width: 10px !important;
  }
  
  #urlbar-background {
@@ -152,12 +152,12 @@ Firefox Versions: 102+
  
  /* Navigation Bar Background */
  
- :root:not([lwt-default-theme-in-dark-mode]) #nav-bar {
-   background-color: rgba(255,255,255,.6) !important;
+ /*:root:not([lwt-default-theme-in-dark-mode]) #nav-bar {
+   background-color: rgba(0,0,0,.4) !important;
  }
 
  :root[lwt-default-theme-in-dark-mode] #nav-bar {
-   background-color: rgba(65,65,65,.6) !important; 
+   background-color: rgba(0,0,0,1) !important; 
  }
  
  /* Inactive Address/Search Field Background */
@@ -174,7 +174,7 @@ Firefox Versions: 102+
  /* Active Address/Search Field Dropdown */
  
  :root:not([lwt-default-theme-in-dark-mode])  #urlbar[breakout][breakout-extend] > #urlbar-background {
-    background: rgba(250,250,250,1) !important;
+    background: rgba(30,30,30,1) !important;
  }
  
  :root[lwt-default-theme-in-dark-mode]  #urlbar[breakout][breakout-extend] > #urlbar-background {
